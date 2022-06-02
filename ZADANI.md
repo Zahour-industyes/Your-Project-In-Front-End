@@ -14,11 +14,11 @@ zadání #1 (CHALLANGE: dont use px but some alternative like %, vw or vh)
 
 2/3
 
--add new font from webpage like google fonts (<https://fonts.google.com>)
+-add new font from webpage like google fonts (https://fonts.google.com)
 
 3/3
 
--use font that you will download instead of that from google fonts
+-use font that you will download instead of that from google fonts (for stupid fonts use http://velvetyne.fr)
 -add hower animation for the button
 -add custon name and icon for the web
 
