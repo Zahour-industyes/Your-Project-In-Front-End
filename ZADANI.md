@@ -73,3 +73,7 @@ zadání #2 (CHALLANGE: try to use colors only in hex)
  
  -add more css for the arrow buttons so they dont look like buttons
  -add animation for the text when it changes
+
+=======================================================================================================================================================================
+
+BTW Až to dokončíš tak se budeš podle mě moct rozhodnout jestli chceš frontend nebo backend
