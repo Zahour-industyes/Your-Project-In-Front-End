@@ -1,0 +1,11 @@
+To make element that is big as a side without scroll (for example when I need a image on a background of a main title of web) we will
+set width to 100% and height to 100vh.
+
+pages dont have the same width it changes with the elements and other things on the web
+
+
+
+Centering code :
+display: block;
+margin-left: auto;
+margin-right: auto;
