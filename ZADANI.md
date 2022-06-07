@@ -54,7 +54,7 @@ zadání #2 (CHALLANGE: try to use colors only in hex)
  
  -web will have:
   -big heading
-  -behind that heading svg background
+  -behind that heading custom background
   -under svg and title three round images with tick border
   -image in the center (the second one) will be bigger than the oter two and slightly hower over them
   -under those three images will be some text
@@ -64,7 +64,7 @@ zadání #2 (CHALLANGE: try to use colors only in hex)
  2/3
  
  -add custom downloaded font
- -3D effect for the svg background of the heading (clue: use layers)
+ -3D effect for the custom background of the heading (clue: use layers)
  -make a hower animation for the three images (example: the image will become bigger)
  -add a litte title for the changeing text (the title will change with the text)
  -add a little line under the little title 
@@ -73,3 +73,7 @@ zadání #2 (CHALLANGE: try to use colors only in hex)
  
  -add more css for the arrow buttons so they dont look like buttons
  -add animation for the text when it changes
+
+=======================================================================================================================================================================
+
+BTW Až to dokončíš tak se budeš podle mě moct rozhodnout jestli chceš frontend nebo backend
