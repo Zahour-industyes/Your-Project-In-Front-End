@@ -26,7 +26,25 @@ zadání #1 (CHALLANGE: dont use px but some alternative like %, vw or vh)
 
 zadání #2 (CHALLANGE: try to use colors only in hex)
 
-idk man just do some cool webpage 
+1/3
+
+create a webpage that will have
+  -color palette
+  -images
+  -text with custom font
+  -some content that can be downlodable
+  
+2/3
+
+add:
+  -css animation
+  -custom scroling speed
+  
+3/3
+
+add:
+  -video
+  -music
 
  
  ======================================================================================================================================================================
