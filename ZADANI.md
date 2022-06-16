@@ -39,6 +39,7 @@ create a webpage that will have
 add:
   -css animation
   -custom scroling speed
+  -some popup
   
 3/3
 
