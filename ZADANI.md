@@ -26,6 +26,13 @@ zadání #1 (CHALLANGE: dont use px but some alternative like %, vw or vh)
 
 zadání #2 (CHALLANGE: try to use colors only in hex)
 
+idk man just do some cool webpage 
+
+ 
+ ======================================================================================================================================================================
+ 
+ zadání #3 (CHALLANGE: dont use px but some alternative like %, vw or vh)
+
 1/3
 
 -web will have:
@@ -40,39 +47,12 @@ zadání #2 (CHALLANGE: try to use colors only in hex)
  
  2/3
  
- -play with it and add more css to everything
+ -play with it and add more css to everything:
+  -examle: card cloud flip and show something on the back
  
  3/3
  
  -add a change theme button that will change the background color of the webpage
- 
- ======================================================================================================================================================================
- 
- zadání #3 (CHALLANGE: dont use px but some alternative like %, vw or vh)
- 
- 1/3
- 
- -web will have:
-  -big heading
-  -behind that heading custom background
-  -under svg and title three round images with tick border
-  -image in the center (the second one) will be bigger than the oter two and slightly hower over them
-  -under those three images will be some text
-  -next to the text there will be two arrow buttons ("next" and "back")
-  -when you click the button the text will change
- 
- 2/3
- 
- -add custom downloaded font
- -3D effect for the custom background of the heading (clue: use layers)
- -make a hower animation for the three images (example: the image will become bigger)
- -add a litte title for the changeing text (the title will change with the text)
- -add a little line under the little title 
- 
- 3/3
- 
- -add more css for the arrow buttons so they dont look like buttons
- -add animation for the text when it changes
 
 =======================================================================================================================================================================
 
