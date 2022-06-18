@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/9395f8b44d.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* ================================ Pre setup =================================== */
+        @font-face {
+            font-family: Pacifico;
+            src: url(/Project-2/fonts/Pacifico-Regular.ttf);
+        }
+
+        @keyframes neon {
+            0%, 39%, 41%, 59%, 61%, 100% {
+                text-shadow: 
+                #ffffff 0 0 12px,
+                #ff3aad 0 0 24px,
+                #ff3aad 0 0 36px;
+            }
+
+            40%, 60% {
+                text-shadow: none;
+            }
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+
+            background-color: #000000;
+
+            overflow-x: hidden;
+        }
+
+        /* ======================================== Heading ====================================== */
+
+        .title {
+            font-family: Pacifico;
+            font-size: 10rem;
+
+            text-align: center;
+
+            color: #ffffff;
+
+            margin: 0;
+
+            animation: neon 5s infinite;
+        }
+
+        /* ========================================= Image ================================= */
+
+        .bilboard {
+            width: 700px;
+            height: 700px;
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            margin-top: 35px;
+
+            visibility: visible;
+        }
+
+        /* ====================================== Buttons ====================================== */
+
+        i {
+            color: #ffffff;
+
+            font-size: xx-large;
+        }
+
+
+
+        .fa-angle-left {
+            position: absolute;
+            left: 3%;
+            bottom: 3%;
+        }
+
+        .fa-angle-right {
+            position: absolute;
+            left: 97%;
+            bottom: 3%;
+        }
+
+        .left-arrow{
+            cursor: pointer;
+            color: #000000;
+        }
+
+        .right-arrow{
+            cursor: pointer;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Heading</h1>
+
+    <img src="/Project-2/images/undefined (1).png" alt="" class="bilboard" id="image">
+
+    <iframe width="700px" height="700px" src="" frameborder="0" class="video"></iframe>
+
+    <div class="arrow-keyes">
+        <button class="left-arrow">
+            <i class="fa-solid fa-angle-left" onclick="less()"></i>
+        </button>
+        <button class="right-arrow" onclick= "more()">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+    </div>
+
+    <script>
+        let count = 0;
+
+        function counter() {
+            if( count === 1 || count === -1 ) {
+                document.getElementById("image").src = "/Project-2/images/undefined (2).png";
+            }
+            if( count === 2 || count === -2 ) {
+                document.getElementById("image").src = "/Project-2/images/undefined (3).png";
+            }
+            if ( count === 3 || count === -3 ) {
+                document.getElementById("image").src = "/Project-2/images/undefined (4).png";
+            }
+            if ( count === 4 || count === -4 ) {
+                document.getElementById("image").src = "/Project-2/images/undefined (5).png";
+            }
+            if ( count === 5 || count === -5 ) {
+                document.getElementById("image").style.visibility = "hidden";
+            }
+            if ( count === 0 ) {
+                document.getElementById("image").src = "/Project-2/images/undefined (1).png";
+            }
+        }
+
+        function more() {
+            count = count + 1;
+            console.log(count);
+
+            counter()
+        }
+
+        function less() {
+            count = count - 1;
+            console.log(count);
+
+            counter()
+        }
+
+        
+    </script>
+</body>
+</html>
